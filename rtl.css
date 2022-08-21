@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Samim";
+  src: url("fonts/Samim-FD.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Samim-FD.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Samim-FD.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("fonts/Samim-FD.woff2") format("woff2"),
+    /* Pretty Modern Browsers */ url("fonts/Samim-FD.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+body,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+select,
+option,
+p,
+div,
+input::placeholder,
+textarea,
+label,
+button,
+li {
+  font-family: "Samim" !important;
+}
+#about {
+  direction: rtl;
+  text-align: right;
+}
+.services {
+  direction: rtl;
+  text-align: right;
+}
+.contact_form {
+  text-align: right !important;
+  direction: rtl !important;
+}
+@media (max-width: 991px) {
+  .navbar-nav.text-uppercase.ml-auto {
+    text-align: right;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
